@@ -1,0 +1,48 @@
+.header {
+  background-color: #0E1212;
+  align-items: center;
+}
+
+.logo img {
+  padding-left: 0.5%;
+  padding-top: 0.5%;
+  height: 140px;
+  width: 140px;
+}
+
+.nav {
+  padding-left: 58%;
+  position: fixed;
+  top: 3%;
+}
+.nav li {
+  display: inline;
+}
+
+.nav a {
+  color: #DBDBDB;
+  padding: 12px;
+  font-size: 1rem;
+  text-decoration: none;
+  font-family: monospace;
+}
+
+.githubIcon {
+  padding-left: 80%;
+}
+.githubIcon img {
+  height: auto;
+  width: 3%;
+  position: fixed;
+  top: 4%;
+}
+
+.linkedInIcon {
+  padding-left: 94%;
+}
+.linkedInIcon img {
+  height: auto;
+  width: 3%;
+  position: fixed;
+  top: 4%;
+}/*# sourceMappingURL=main.css.map */

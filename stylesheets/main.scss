@@ -1,0 +1,55 @@
+@import './variables.scss';
+
+.header {
+    background-color: $primary-background-color;
+    align-items: center;
+    }
+
+.logo {
+    img {
+        padding-left: 0.5%;
+        padding-top: 0.5%;
+      height: 140px;
+      width: 140px;
+      }
+    }
+
+.nav {
+    padding-left: 58%;
+    position: fixed;
+    top: 3%;
+    li {
+        display: inline;
+
+    }
+    }
+.nav a {
+    color: $primary-text-color;
+    padding: 12px;
+    font-size: 1rem;
+    text-decoration: none;
+    font-family:monospace
+    }
+
+.githubIcon {
+    padding-left: 80%;
+    img {
+        height: auto;
+        width: 3%;
+        position: fixed;
+        top: 4%;
+    }
+}
+.linkedInIcon {
+    padding-left: 94%;
+    img {
+        height: auto;
+        width: 3%;
+        position: fixed;
+        top: 4%;
+    }
+}
+
+    
+
+
