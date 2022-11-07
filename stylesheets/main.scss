@@ -1,55 +1,12 @@
 @import './variables.scss';
+@import './header.scss';
+@import './hero';
+@import './footer';
 
-.header {
+body {
     background-color: $primary-background-color;
-    align-items: center;
-    }
+    font-family: monospace;
+    width: 100vw;
+    height: 100vh;
 
-.logo {
-    img {
-        padding-left: 0.5%;
-        padding-top: 0.5%;
-      height: 140px;
-      width: 140px;
-      }
-    }
-
-.nav {
-    padding-left: 58%;
-    position: fixed;
-    top: 3%;
-    li {
-        display: inline;
-
-    }
-    }
-.nav a {
-    color: $primary-text-color;
-    padding: 12px;
-    font-size: 1rem;
-    text-decoration: none;
-    font-family:monospace
-    }
-
-.githubIcon {
-    padding-left: 80%;
-    img {
-        height: auto;
-        width: 3%;
-        position: fixed;
-        top: 4%;
-    }
 }
-.linkedInIcon {
-    padding-left: 94%;
-    img {
-        height: auto;
-        width: 3%;
-        position: fixed;
-        top: 4%;
-    }
-}
-
-    
-
-

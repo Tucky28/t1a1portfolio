@@ -1,0 +1,55 @@
+
+.header {
+    position: relative;
+
+}
+.logo {
+    img {
+        max-width: 140px;
+      }
+}
+
+.nav {
+    padding-top: 10px;
+    padding-right: 130px;
+    float: right;
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: 1rem;
+    }
+
+.nav a {
+    color: $primary-text-color;
+    padding: 30px;
+    text-decoration: none;
+    }
+
+.nav li {
+    display: inline;
+}
+
+.nav li:hover {
+    background-color:$secondary-text-color;
+    border-radius: 5px;
+    padding: 3px;
+    transition: 0.3s ease;
+}
+
+.githubIcon {
+    img {
+        position: absolute;
+        right: 70px;
+        top: 10px;
+        display: block;
+        max-width: 4em;
+    }
+}
+.linkedInIcon {
+    img {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        display: block;
+        max-width: 4em;
+    }
+}
