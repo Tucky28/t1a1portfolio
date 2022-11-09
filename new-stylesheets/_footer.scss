@@ -1,0 +1,39 @@
+.designed-by {
+  color: $primary-text-color;
+}
+footer {
+  margin-top: auto;
+}
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.logo-footer {
+  max-width: 50px;
+}
+@media only screen and (min-width: 414px) {
+  .designed-by {
+    font-size: 0.7em;
+  }
+  .logo-footer {
+    width: 40px;
+  }
+}
+@media only screen and (min-width: 820px) {
+  .designed-by {
+    font-size: 0.8em;
+  }
+  .logo-footer {
+    width: 50px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .designed-by {
+    font-size: 0.9em;
+  }
+  .logo-footer {
+    width: 60px;
+  }
+}

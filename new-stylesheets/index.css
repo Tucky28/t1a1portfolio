@@ -1,0 +1,209 @@
+.github-image {
+  max-width: 4em;
+  margin-right: 5px;
+}
+
+.header-container {
+  display: flex;
+}
+
+.linkedin-image {
+  max-width: 4em;
+}
+
+.logo-image {
+  max-width: 4em;
+}
+
+.logo-container {
+  display: flex;
+}
+
+.navigation-container {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  padding-top: 10px;
+}
+
+.nav-menu {
+  font-size: 1rem;
+}
+
+.nav-menu a {
+  color: #dbdbdb;
+  text-decoration: none;
+}
+
+.nav-menu li {
+  display: inline;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.nav-menu li:hover {
+  background-color: #6563ff;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.socials-container {
+  display: flex;
+  padding-top: 15px;
+  padding-right: 15px;
+}
+
+@media only screen and (min-width: 414px) {
+  .github-image {
+    max-width: 30px;
+  }
+  .linkedin-image {
+    max-width: 30px;
+  }
+  .logo-image {
+    max-width: 60px;
+  }
+  .nav-menu {
+    font-size: 0.8em;
+  }
+  .navigation-container {
+    display: flex;
+    justify-content: center;
+  }
+  .nav-menu li {
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+  }
+}
+@media only screen and (min-width: 820px) {
+  .github-image {
+    max-width: 40px;
+  }
+  .linkedin-image {
+    max-width: 40px;
+  }
+  .logo-image {
+    max-width: 100px;
+  }
+  .nav-menu {
+    font-size: 1.2em;
+  }
+  .navigation-container {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+  }
+  .nav-menu li {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .github-image {
+    max-width: 50px;
+  }
+  .linkedin-image {
+    max-width: 50px;
+  }
+  .logo-image {
+    max-width: 140px;
+  }
+  .nav-menu {
+    font-size: 1.5em;
+  }
+  .nav-menu li {
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+  }
+}
+.designed-by {
+  color: #DBDBDB;
+}
+
+footer {
+  margin-top: auto;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-footer {
+  max-width: 50px;
+}
+
+@media only screen and (min-width: 414px) {
+  .designed-by {
+    font-size: 0.7em;
+  }
+  .logo-footer {
+    width: 40px;
+  }
+}
+@media only screen and (min-width: 820px) {
+  .designed-by {
+    font-size: 0.8em;
+  }
+  .logo-footer {
+    width: 50px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .designed-by {
+    font-size: 0.9em;
+  }
+  .logo-footer {
+    width: 60px;
+  }
+}
+.main-container {
+  border-bottom: 1px solid #020096;
+  display: flex;
+  flex-direction: column;
+  padding-left: 200px;
+}
+
+.main-heading {
+  display: flex;
+  flex-direction: row;
+}
+
+.quote {
+  flex: 1;
+}
+
+.avatar {
+  align-self: flex-end;
+  margin-bottom: 370px;
+}
+
+.avatar-image {
+  border-radius: 50%;
+  max-width: 50%;
+}
+
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  padding: 0px;
+  min-height: 100vh;
+  background-color: #0E1212;
+  color: #DBDBDB;
+  font-family: monospace;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}/*# sourceMappingURL=index.css.map */
