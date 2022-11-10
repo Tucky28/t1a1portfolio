@@ -1,22 +1,77 @@
 .main-container {
-  border-bottom: 1px solid darken($color: $secondary-text-color, $amount: 40);
   display: flex;
-  flex-direction: column;
-  padding-left: 200px;
+  flex-direction: row;
 }
 .main-heading {
   display: flex;
   flex-direction: row;
 }
-.quote {
-  flex: 1;
+.main-left-content {
+  flex: 2;
 }
 
-.avatar {
-  align-self: flex-end;
-  margin-bottom: 370px;
+.main-right-content {
+  flex: 1;
+  align-self: center;
 }
 .avatar-image {
   border-radius: 50%;
   max-width: 50%;
+}
+.second-heading-word {
+  color: $secondary-text-color;
+  margin-left: 5px;
+}
+.quote {
+  margin-top: 300px;
+}
+@media only screen and (min-width: 414px) {
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  .main-heading {
+    font-size: 1.5em;
+  }
+  .main-left-content {
+    font-size: 0.6em;
+  }
+  .quote {
+    margin-top: 80px;
+  }
+}
+
+@media only screen and (min-width: 820px) {
+  .main-container {
+    margin-left: 90px;
+    margin-right: 90px;
+  }
+  .main-heading {
+    font-size: 1.7em;
+  }
+  .main-left-content {
+    font-size: 0.8em;
+  }
+  .quote {
+    margin-top: 120px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .main-container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 130px;
+    margin-right: 130px;
+  }
+  .main-heading {
+    font-size: 1.7em;
+  }
+  .main-left-content {
+    font-size: 0.8em;
+  }
+  .quote {
+    margin-top: 120px;
+  }
 }

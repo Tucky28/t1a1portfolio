@@ -1,0 +1,65 @@
+/* Style inputs */
+input[type="text"],
+select,
+textarea {
+  font-family: monospace;
+  font-size: small;
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  font-family: monospace;
+  background-color: $secondary-text-color;
+  color: $primary-text-color;
+  padding: 10px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: $secondary-text-color;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#subject {
+  height: 170px;
+}
+
+@media only screen and (min-width: 414px) {
+  .form-container {
+    font-size: 0.6em;
+    padding: 50px;
+  }
+  input[type="submit"] {
+    font-size: 1.3em;
+  }
+  input[type="text"],
+  select,
+  textarea {
+    font-size: 0.6em;
+  }
+}
+
+@media only screen and (min-width: 820px) {
+  .form-container {
+    font-size: 0.6em;
+    padding: 50px;
+  }
+  input[type="submit"] {
+    font-size: 1.3em;
+  }
+  input[type="text"],
+  select,
+  textarea {
+    font-size: 0.6em;
+  }
+}
