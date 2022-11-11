@@ -1,0 +1,31 @@
+@import "../stylesheets/components/defaultstyles";
+@import "../stylesheets/components/variables";
+@import "../stylesheets/pages/aboutme";
+@import "../stylesheets/pages/bloglistpage";
+@import "../stylesheets/pages/blogpage:";
+@import "../stylesheets/pages/contactme";
+@import "../stylesheets/pagesections/footer";
+@import "../stylesheets/pagesections/header";
+@import "../stylesheets/pagesections/main";
+
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  padding: 0px;
+  background-color: $primary-background-color;
+  color: $primary-text-color;
+  font-family: monospace;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}

@@ -11,37 +11,24 @@ textarea {
   margin-bottom: 10px;
 }
 
-input[type="submit"] {
+.standard-button {
   font-family: monospace;
   background-color: $secondary-text-color;
   color: $primary-text-color;
-  padding: 10px 10px;
+  padding: 10px 25px;
   border: none;
   cursor: pointer;
 }
 
-input[type="submit"]:hover {
+.standard-button:hover {
   background-color: $secondary-text-color;
 }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 #subject {
-  height: 170px;
+  height: 120px;
 }
 
 @media only screen and (min-width: 414px) {
-  .form-container {
-    font-size: 0.6em;
-    padding: 50px;
-  }
-  input[type="submit"] {
-    font-size: 1.3em;
-  }
   input[type="text"],
   select,
   textarea {
@@ -50,16 +37,16 @@ input[type="submit"]:hover {
 }
 
 @media only screen and (min-width: 820px) {
-  .form-container {
-    font-size: 0.6em;
-    padding: 50px;
-  }
-  input[type="submit"] {
-    font-size: 1.3em;
-  }
   input[type="text"],
   select,
   textarea {
-    font-size: 0.6em;
+    font-size: 0.8em;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  input[type="text"],
+  select,
+  textarea {
+    font-size: 0.9em;
   }
 }

@@ -97,7 +97,7 @@
   }
 }
 .designed-by {
-  color: #DBDBDB;
+  color: #dbdbdb;
 }
 
 footer {
@@ -164,8 +164,8 @@ footer {
 }
 
 .second-heading-word {
-  color: #6563FF;
-  margin-left: 5px;
+  color: #6563ff;
+  margin-left: 10px;
 }
 
 .quote {
@@ -180,9 +180,13 @@ footer {
     margin-right: 60px;
   }
   .main-heading {
+    display: flex;
     font-size: 1.5em;
   }
   .main-left-content {
+    font-size: 0.6em;
+  }
+  .main-right-content {
     font-size: 0.6em;
   }
   .quote {
@@ -200,6 +204,9 @@ footer {
   .main-left-content {
     font-size: 0.8em;
   }
+  .main-right-content {
+    font-size: 0.8em;
+  }
   .quote {
     margin-top: 120px;
   }
@@ -215,7 +222,10 @@ footer {
     font-size: 1.7em;
   }
   .main-left-content {
-    font-size: 0.8em;
+    font-size: 0.9em;
+  }
+  .main-right-content {
+    font-size: 0.9em;
   }
   .quote {
     margin-top: 120px;
@@ -227,7 +237,7 @@ footer {
 }
 
 /* Style inputs */
-input[type=text],
+input[type="text"],
 select,
 textarea {
   font-family: monospace;
@@ -239,62 +249,107 @@ textarea {
   margin-bottom: 10px;
 }
 
-input[type=submit] {
+.standard-button {
   font-family: monospace;
-  background-color: #6563FF;
-  color: #DBDBDB;
-  padding: 10px 10px;
+  background-color: #6563ff;
+  color: #dbdbdb;
+  padding: 10px 25px;
   border: none;
   cursor: pointer;
 }
 
-input[type=submit]:hover {
-  background-color: #6563FF;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+.standard-button:hover {
+  background-color: #6563ff;
 }
 
 #subject {
-  height: 170px;
+  height: 120px;
 }
 
 @media only screen and (min-width: 414px) {
-  .form-container {
-    font-size: 0.6em;
-    padding: 50px;
-  }
-  input[type=submit] {
-    font-size: 1.3em;
-  }
-  input[type=text],
-select,
-textarea {
+  input[type="text"],
+  select,
+  textarea {
     font-size: 0.6em;
   }
 }
 @media only screen and (min-width: 820px) {
-  .form-container {
-    font-size: 0.6em;
-    padding: 50px;
-  }
-  input[type=submit] {
-    font-size: 1.3em;
-  }
-  input[type=text],
-select,
-textarea {
-    font-size: 0.6em;
+  input[type="text"],
+  select,
+  textarea {
+    font-size: 0.8em;
   }
 }
-.blog-one {
-  border: 2px ridge #00a4bd;
+@media only screen and (min-width: 1280px) {
+  input[type="text"],
+  select,
+  textarea {
+    font-size: 0.9em;
+  }
+}
+.individual-blog-container {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #0e1212;
+  border-radius: 20px;
+  padding: 10px;
+  padding-top: 5px;
+  background-color: #dbdbdb;
+  color: #0e1212;
+  margin-bottom: 10px;
 }
 
+.blog-text {
+  margin: 15px;
+}
+
+.standard-button {
+  margin-top: 15px;
+  align-self: flex-end;
+}
+
+@media only screen and (min-width: 414px) {
+  .standard-button {
+    font-size: 0.8em;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media only screen and (min-width: 820px) {
+  .standard-button {
+    font-size: 0.9em;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .standard-button {
+    font-size: 1em;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+#blog-image-container {
+  display: flex;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+@media only screen and (min-width: 414px) {
+  .coding {
+    width: 240px;
+  }
+}
+@media only screen and (min-width: 820px) {
+  .coding {
+    width: 560px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .coding {
+    width: 800px;
+  }
+}
 html {
   font-size: 100%;
   box-sizing: border-box;
@@ -306,9 +361,8 @@ body {
   flex-direction: column;
   margin: 0px;
   padding: 0px;
-  min-height: 100vh;
-  background-color: #0E1212;
-  color: #DBDBDB;
+  background-color: #0e1212;
+  color: #dbdbdb;
   font-family: monospace;
 }
 
@@ -316,4 +370,4 @@ body {
 *::before,
 *::after {
   box-sizing: inherit;
-}/*# sourceMappingURL=index.css.map */
+} /*# sourceMappingURL=index.css.map */
