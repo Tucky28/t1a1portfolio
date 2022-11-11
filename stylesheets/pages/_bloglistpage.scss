@@ -1,14 +1,39 @@
 .individual-blog-container {
+  border-radius: 20px;
+  border: 1px solid $secondary-text-color;
+  color: $primary-text-color;
   display: flex;
   flex-direction: column;
-  border: 2px solid $primary-background-color;
-  border-radius: 20px;
+  margin-bottom: 20px;
   padding: 10px;
   padding-top: 5px;
-  background-color: $primary-text-color;
-  color: $primary-background-color;
-  margin-bottom: 10px;
 }
 .blog-text {
-  margin: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.blog-heading {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.button-container {
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+@media only screen and (min-width: 414px) {
+  .blog-heading {
+    font-size: 9px;
+  }
+}
+
+@media only screen and (min-width: 820px) {
+  .blog-heading {
+    font-size: 11px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .blog-heading {
+    font-size: 13px;
+  }
 }

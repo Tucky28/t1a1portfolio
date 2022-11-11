@@ -1,31 +1,39 @@
-@import "../stylesheets/components/defaultstyles";
-@import "../stylesheets/components/variables";
-@import "../stylesheets/pages/aboutme";
-@import "../stylesheets/pages/bloglistpage";
-@import "../stylesheets/pages/blogpage:";
-@import "../stylesheets/pages/contactme";
-@import "../stylesheets/pagesections/footer";
-@import "../stylesheets/pagesections/header";
-@import "../stylesheets/pagesections/main";
+@import "./components/defaultstyles";
+@import "./components/variables";
+@import "./pages/aboutme";
+@import "./pages/bloglistpage";
+@import "./pages/blogpage";
+@import "./pages/contactme";
+@import "./pagesections/footer";
+@import "./pagesections/header";
+@import "./pagesections/main";
+@import "./pages/home";
 
 html {
-  font-size: 100%;
+  border-bottom: 0;
+  border-left: 3px solid $secondary-text-color;
+  border-image: linear-gradient(
+      $primary-background-color,
+      $secondary-text-color,
+      $primary-background-color
+    )
+    1;
   box-sizing: border-box;
+  border-right: 0;
+  border-top: 0;
+  font-size: 100%;
+}
+html {
+  border-right: 3px solid $secondary-text-color;
 }
 
 body {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  margin: 0px;
-  padding: 0px;
   background-color: $primary-background-color;
   color: $primary-text-color;
+  display: flex;
+  flex-direction: column;
   font-family: monospace;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
+  margin: 0px;
+  min-height: 100vh;
+  padding: 0px;
 }

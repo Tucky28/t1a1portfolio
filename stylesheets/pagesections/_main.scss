@@ -2,23 +2,27 @@
   display: flex;
   flex-direction: row;
 }
+
 .main-heading {
   display: flex;
   flex-direction: row;
 }
 .main-left-content {
   flex: 2;
+  padding-left: 20px;
+  margin-top: 20px;
 }
 
 .main-right-content {
   flex: 1;
   align-self: center;
+  margin: 40px;
 }
-
 .second-heading-word {
   color: $secondary-text-color;
-  margin-left: 10px;
+  margin-left: 7px;
 }
+
 @media only screen and (min-width: 414px) {
   .main-container {
     display: flex;

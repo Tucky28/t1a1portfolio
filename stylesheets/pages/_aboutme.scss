@@ -1,4 +1,19 @@
-.few-facts-image {
-  max-width: 80%;
+.about-me-image {
   padding-left: 30px;
+}
+@media only screen and (min-width: 414px) {
+  .about-me-image {
+    width: 300px;
+  }
+}
+
+@media only screen and (min-width: 820px) {
+  .about-me-image {
+    width: 400px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .about-me-image {
+    width: 500px;
+  }
 }
