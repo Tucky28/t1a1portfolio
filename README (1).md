@@ -37,7 +37,7 @@ The purpose is to provide and online developer portfolio representing who I am, 
 ![Resume](./images/resume.png)
 ![Bloglist](./images/bloglist.png)
 ![Blogpage](./images/blogpage.png)
-![Contact](./images/contactme.png.png)
+![Contact](./images/contactme.png)
 
 ## Target Audience
 
