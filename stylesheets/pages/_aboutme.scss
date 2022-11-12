@@ -1,17 +1,20 @@
+/*The image on the right hand side next to the text*/
 .about-me-image {
   padding-left: 30px;
 }
+/*Responsive image iPhone XR*/
 @media only screen and (min-width: 414px) {
   .about-me-image {
     width: 300px;
   }
 }
-
+/*Responsive image for iPad Air*/
 @media only screen and (min-width: 820px) {
   .about-me-image {
     width: 400px;
   }
 }
+/*Responsive image for standard laptop or monitor size*/
 @media only screen and (min-width: 1280px) {
   .about-me-image {
     width: 500px;

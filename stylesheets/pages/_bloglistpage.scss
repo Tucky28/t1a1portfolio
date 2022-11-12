@@ -1,3 +1,26 @@
+/*Date and time component for blog containers*/
+.blog-date-time {
+  font-style: italic;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+/*Text inside each blog container*/
+.blog-text {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+/*Heading of each blog*/
+.blog-heading {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+/*The standard button inside the blog container*/
+.button-container {
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+/*Responsive for iPad Air*/
 .individual-blog-container {
   border-radius: 20px;
   border: 1px solid $secondary-text-color;
@@ -8,30 +31,19 @@
   padding: 10px;
   padding-top: 5px;
 }
-.blog-text {
-  margin-left: 5px;
-  margin-right: 5px;
-}
-.blog-heading {
-  margin-left: 5px;
-  margin-right: 5px;
-}
-.button-container {
-  margin-bottom: 10px;
-  margin-right: 10px;
-}
-
+/*Responsive for iPad Air*/
 @media only screen and (min-width: 414px) {
   .blog-heading {
     font-size: 9px;
   }
 }
-
+/*Responsive for iPad Air*/
 @media only screen and (min-width: 820px) {
   .blog-heading {
     font-size: 11px;
   }
 }
+/*Responsive for standard laptop or monitor size*/
 @media only screen and (min-width: 1280px) {
   .blog-heading {
     font-size: 13px;

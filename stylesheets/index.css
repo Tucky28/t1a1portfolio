@@ -1,3 +1,4 @@
+/*Imported all seperate styling sheets into one*/
 .standard-button {
   margin-top: 15px;
   text-decoration: none;
@@ -24,25 +25,56 @@
     padding-right: 15px;
   }
 }
+/*Colour palette for website*/ /*The image on the right hand side next to the text*/
 .about-me-image {
   padding-left: 30px;
 }
 
+/*Responsive image iPhone XR*/
 @media only screen and (min-width: 414px) {
   .about-me-image {
     width: 300px;
   }
 }
+/*Responsive image for iPad Air*/
 @media only screen and (min-width: 820px) {
   .about-me-image {
     width: 400px;
   }
 }
+/*Responsive image for standard laptop or monitor size*/
 @media only screen and (min-width: 1280px) {
   .about-me-image {
     width: 500px;
   }
 }
+/*Date and time component for blog containers*/
+.blog-date-time {
+  font-style: italic;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+/*Text inside each blog container*/
+.blog-text {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+/*Heading of each blog*/
+.blog-heading {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+/*The standard button inside the blog container*/
+.button-container {
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+/*Responsive for iPad Air*/
 .individual-blog-container {
   border-radius: 20px;
   border: 1px solid #6563ff;
@@ -54,66 +86,63 @@
   padding-top: 5px;
 }
 
-.blog-text {
-  margin-left: 5px;
-  margin-right: 5px;
-}
-
-.blog-heading {
-  margin-left: 5px;
-  margin-right: 5px;
-}
-
-.button-container {
-  margin-bottom: 10px;
-  margin-right: 10px;
-}
-
+/*Responsive for iPad Air*/
 @media only screen and (min-width: 414px) {
   .blog-heading {
     font-size: 9px;
   }
 }
+/*Responsive for iPad Air*/
 @media only screen and (min-width: 820px) {
   .blog-heading {
     font-size: 11px;
   }
 }
+/*Responsive for standard laptop or monitor size*/
 @media only screen and (min-width: 1280px) {
   .blog-heading {
     font-size: 13px;
   }
 }
+/*The image inside the blog container*/
 #blog-image-container {
   display: flex;
-  margin-top: 15px;
+  margin-top: 25px;
   margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
 }
 
+/*The standard button inside the blog container*/
 .button-container {
   display: flex;
   justify-content: flex-end;
 }
 
+/*Responsive blog image for iPad Air*/
 @media only screen and (min-width: 414px) {
   .coding {
-    width: 240px;
+    width: 150px;
   }
 }
+/*Responsive blog imagefor iPad Air*/
 @media only screen and (min-width: 820px) {
   .coding {
-    width: 560px;
+    width: 400px;
   }
 }
+/*Responsive blog image for standard laptop or monitor size*/
 @media only screen and (min-width: 1280px) {
   .coding {
-    width: 800px;
+    width: 600px;
   }
 }
+/*The width of the container with the form inside*/
 .form-container {
   max-width: 300px;
 }
 
+/*The text area inside the form*/
 input[type=text],
 select,
 textarea {
@@ -127,6 +156,37 @@ textarea {
   width: 100%;
 }
 
+/*The image of the phone*/
+.phone-image {
+  margin-top: 27px;
+}
+
+/*The container with the phone and email image including text*/
+.phone-and-email-section {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20;
+}
+
+/*The seperate phone container with phone number*/
+.phone-image-text-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+
+/*The seperate email container with email*/
+.email-image-text-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 28px;
+}
+
+/*The submit button inside the form*/
 .standard-button {
   background-color: #6563ff;
   border: none;
@@ -136,43 +196,63 @@ textarea {
   padding: 10px 25px;
 }
 
-.standard-button:hover {
-  background-color: #6563ff;
-}
-
+/*The height of the subject field in the form*/
 #subject {
   height: 120px;
 }
 
+/*Responsive for iPad Air*/
 @media only screen and (min-width: 414px) {
+  .email-image {
+    width: 40px;
+  }
   input[type=text],
 select,
 textarea {
     font-size: 0.6em;
   }
+  .phone-image {
+    width: 40px;
+  }
 }
+/*Responsive for iPad Air*/
 @media only screen and (min-width: 820px) {
+  .email-image {
+    width: 70px;
+  }
   input[type=text],
 select,
 textarea {
     font-size: 0.8em;
   }
+  .phone-image {
+    width: 70px;
+  }
 }
 @media only screen and (min-width: 1280px) {
+  .email-image {
+    width: 80px;
+  }
   input[type=text],
 select,
 textarea {
     font-size: 0.9em;
   }
+  .phone-image {
+    width: 80px;
+  }
 }
+/*The colour of the text inside the footer*/
 .designed-by {
   color: #dbdbdb;
 }
 
+/*Aligning the footer to stick to the bottom*/
 footer {
   margin-top: auto;
 }
 
+/*The entire footer container*/
 .footer-container {
   display: flex;
   flex-direction: row;
@@ -180,10 +260,12 @@ footer {
   align-items: center;
 }
 
+/*The logo inside the footer*/
 .logo-footer {
   max-width: 50px;
 }
 
+/*Responsive for iPad Air*/
 @media only screen and (min-width: 414px) {
   .designed-by {
     font-size: 0.7em;
@@ -192,6 +274,7 @@ footer {
     width: 40px;
   }
 }
+/*Responsive for iPad Air*/
 @media only screen and (min-width: 820px) {
   .designed-by {
     font-size: 0.8em;
@@ -200,6 +283,7 @@ footer {
     width: 50px;
   }
 }
+/*Responsive for standard laptop or monitor size*/
 @media only screen and (min-width: 1280px) {
   .designed-by {
     font-size: 0.9em;
@@ -208,54 +292,64 @@ footer {
     width: 60px;
   }
 }
+/*The github icon on the right of the header*/
 .github-image {
   max-width: 50px;
 }
 
+/*Placement of the header*/
 .header-container {
   display: flex;
   flex-direction: row;
   margin: 5px;
 }
 
+/*The linkedin icon on the right of the header*/
 .linkedin-image {
   max-width: 50px;
   margin-left: 5px;
 }
 
+/*The logo size on the left of the header*/
 .logo-image {
   max-width: 110px;
 }
 
+/*Placement of the logo*/
 .logo-container {
   display: flex;
   flex: 1;
   justify-content: flex-start;
 }
 
+/*Placement of the navigation menu inside the header*/
 .navigation-container {
   display: flex;
   flex: 8;
   justify-content: flex-end;
 }
 
+/*The style of the anchor element of navigation items*/
 .nav-menu a {
   color: #dbdbdb;
   text-decoration: none;
 }
 
+/*The list items inside the navigation menu*/
 .nav-menu li {
   display: inline;
   padding-left: 0.9em;
   padding-right: 0.9em;
 }
 
+/*The hover effect on the navigation list items*/
 .nav-menu li:hover {
   background-color: #6563ff;
   border-radius: 5px;
   transition: 0.3s ease;
 }
 
+/*The position of the socials container including github and linkedin icon*/
 .socials-container {
   display: flex;
   justify-content: flex-end;
@@ -264,6 +358,7 @@ footer {
   margin-right: 5px;
 }
 
+/*Responsive for iPad Air*/
 @media only screen and (min-width: 414px) {
   .github-image {
     width: 20px;
@@ -278,6 +373,7 @@ footer {
     font-size: 0.7em;
   }
 }
+/*Responsive for iPad Air*/
 @media only screen and (min-width: 820px) {
   .github-image {
     width: 30px;
@@ -292,6 +388,7 @@ footer {
     font-size: 1em;
   }
 }
+/*Responsive for standard laptop or monitor size*/
 @media only screen and (min-width: 1280px) {
   .github-image {
     width: 40px;
@@ -306,33 +403,39 @@ footer {
     font-size: 1.2em;
   }
 }
+/*The entire main container*/
 .main-container {
   display: flex;
   flex-direction: row;
 }
 
+/*The position of the heading*/
 .main-heading {
   display: flex;
   flex-direction: row;
 }
 
+/*Position of the left side content*/
 .main-left-content {
   flex: 2;
   padding-left: 20px;
   margin-top: 20px;
 }
 
+/*Position of the right side content*/
 .main-right-content {
   flex: 1;
   align-self: center;
   margin: 40px;
 }
 
+/*Colour and position of the second heading word*/
 .second-heading-word {
   color: #6563ff;
   margin-left: 7px;
 }
 
+/*Responsive for iPad Air*/
 @media only screen and (min-width: 414px) {
   .main-container {
     display: flex;
@@ -351,6 +454,7 @@ footer {
     font-size: 0.6em;
   }
 }
+/*Responsive for iPad Air*/
 @media only screen and (min-width: 820px) {
   .main-container {
     margin-left: 90px;
@@ -366,6 +470,7 @@ footer {
     font-size: 0.8em;
   }
 }
+/*Responsive for standard laptop or monitor size*/
 @media only screen and (min-width: 1280px) {
   .main-container {
     display: flex;
@@ -383,33 +488,39 @@ footer {
     font-size: 0.9em;
   }
 }
+/*The border radius around the avatar image*/
 .avatar-image {
   border-radius: 5%;
 }
 
+/*Style of the quote underneath the image*/
 .quote {
   margin-top: 30px;
   font-style: italic;
 }
 
+/*Responsive image for iPad Air*/
 @media only screen and (min-width: 414px) {
   .avatar-image {
     width: 300px;
   }
 }
+/*Responsive image for iPad Air*/
 @media only screen and (min-width: 820px) {
   .avatar-image {
     width: 400px;
   }
 }
+/*Responsive image for standard laptop or monitor size*/
 @media only screen and (min-width: 1280px) {
   .avatar-image {
     width: 600px;
   }
 }
+/*The defaults for the entire document including left gradient border*/
 html {
   border-bottom: 0;
-  border-left: 3px solid #6563ff;
+  border-left: 5px solid #6563ff;
   -o-border-image: linear-gradient(#0e1212, #6563ff, #0e1212) 1;
      border-image: linear-gradient(#0e1212, #6563ff, #0e1212) 1;
   box-sizing: border-box;
@@ -418,10 +529,12 @@ html {
   font-size: 100%;
 }
 
+/*Right gradient border*/
 html {
-  border-right: 3px solid #6563ff;
+  border-right: 5px solid #6563ff;
 }
 
+/*The default styling of the pages*/
 body {
   background-color: #0e1212;
   color: #dbdbdb;

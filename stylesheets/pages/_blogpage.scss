@@ -1,27 +1,31 @@
+/*The image inside the blog container*/
 #blog-image-container {
   display: flex;
-  margin-top: 15px;
+  margin-top: 25px;
   margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
 }
-
+/*The standard button inside the blog container*/
 .button-container {
   display: flex;
   justify-content: flex-end;
 }
-
+/*Responsive blog image for iPad Air*/
 @media only screen and (min-width: 414px) {
   .coding {
-    width: 240px;
+    width: 150px;
   }
 }
-
+/*Responsive blog imagefor iPad Air*/
 @media only screen and (min-width: 820px) {
   .coding {
-    width: 560px;
+    width: 400px;
   }
 }
+/*Responsive blog image for standard laptop or monitor size*/
 @media only screen and (min-width: 1280px) {
   .coding {
-    width: 800px;
+    width: 600px;
   }
 }

@@ -1,7 +1,8 @@
+/*The width of the container with the form inside*/
 .form-container {
   max-width: 300px;
 }
-
+/*The text area inside the form*/
 input[type="text"],
 select,
 textarea {
@@ -14,7 +15,35 @@ textarea {
   padding: 5px;
   width: 100%;
 }
+/*The image of the phone*/
+.phone-image {
+  margin-top: 27px;
+}
 
+/*The container with the phone and email image including text*/
+.phone-and-email-section {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20;
+}
+
+/*The seperate phone container with phone number*/
+.phone-image-text-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+/*The seperate email container with email*/
+.email-image-text-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 28px;
+}
+/*The submit button inside the form*/
 .standard-button {
   background-color: $secondary-text-color;
   border: none;
@@ -23,34 +52,48 @@ textarea {
   font-family: monospace;
   padding: 10px 25px;
 }
-
-.standard-button:hover {
-  background-color: $secondary-text-color;
-}
-
+/*The height of the subject field in the form*/
 #subject {
   height: 120px;
 }
-
+/*Responsive for iPad Air*/
 @media only screen and (min-width: 414px) {
+  .email-image {
+    width: 40px;
+  }
   input[type="text"],
   select,
   textarea {
     font-size: 0.6em;
   }
+  .phone-image {
+    width: 40px;
+  }
 }
-
+/*Responsive for iPad Air*/
 @media only screen and (min-width: 820px) {
+  .email-image {
+    width: 70px;
+  }
   input[type="text"],
   select,
   textarea {
     font-size: 0.8em;
   }
+  .phone-image {
+    width: 70px;
+  }
 }
 @media only screen and (min-width: 1280px) {
+  .email-image {
+    width: 80px;
+  }
   input[type="text"],
   select,
   textarea {
     font-size: 0.9em;
+  }
+  .phone-image {
+    width: 80px;
   }
 }

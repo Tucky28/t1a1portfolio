@@ -1,21 +1,25 @@
+/*The border radius around the avatar image*/
 .avatar-image {
   border-radius: 5%;
 }
+/*Style of the quote underneath the image*/
 .quote {
   margin-top: 30px;
   font-style: italic;
 }
+/*Responsive image for iPad Air*/
 @media only screen and (min-width: 414px) {
   .avatar-image {
     width: 300px;
   }
 }
-
+/*Responsive image for iPad Air*/
 @media only screen and (min-width: 820px) {
   .avatar-image {
     width: 400px;
   }
 }
+/*Responsive image for standard laptop or monitor size*/
 @media only screen and (min-width: 1280px) {
   .avatar-image {
     width: 600px;

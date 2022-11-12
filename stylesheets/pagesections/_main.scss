@@ -1,28 +1,31 @@
+/*The entire main container*/
 .main-container {
   display: flex;
   flex-direction: row;
 }
-
+/*The position of the heading*/
 .main-heading {
   display: flex;
   flex-direction: row;
 }
+/*Position of the left side content*/
 .main-left-content {
   flex: 2;
   padding-left: 20px;
   margin-top: 20px;
 }
-
+/*Position of the right side content*/
 .main-right-content {
   flex: 1;
   align-self: center;
   margin: 40px;
 }
+/*Colour and position of the second heading word*/
 .second-heading-word {
   color: $secondary-text-color;
   margin-left: 7px;
 }
-
+/*Responsive for iPad Air*/
 @media only screen and (min-width: 414px) {
   .main-container {
     display: flex;
@@ -41,7 +44,7 @@
     font-size: 0.6em;
   }
 }
-
+/*Responsive for iPad Air*/
 @media only screen and (min-width: 820px) {
   .main-container {
     margin-left: 90px;
@@ -57,6 +60,7 @@
     font-size: 0.8em;
   }
 }
+/*Responsive for standard laptop or monitor size*/
 @media only screen and (min-width: 1280px) {
   .main-container {
     display: flex;

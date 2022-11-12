@@ -1,3 +1,4 @@
+/*Imported all seperate styling sheets into one*/
 @import "./components/defaultstyles";
 @import "./components/variables";
 @import "./pages/aboutme";
@@ -9,9 +10,10 @@
 @import "./pagesections/main";
 @import "./pages/home";
 
+/*The defaults for the entire document including left gradient border*/
 html {
   border-bottom: 0;
-  border-left: 3px solid $secondary-text-color;
+  border-left: 5px solid $secondary-text-color;
   border-image: linear-gradient(
       $primary-background-color,
       $secondary-text-color,
@@ -23,10 +25,11 @@ html {
   border-top: 0;
   font-size: 100%;
 }
+/*Right gradient border*/
 html {
-  border-right: 3px solid $secondary-text-color;
+  border-right: 5px solid $secondary-text-color;
 }
-
+/*The default styling of the pages*/
 body {
   background-color: $primary-background-color;
   color: $primary-text-color;

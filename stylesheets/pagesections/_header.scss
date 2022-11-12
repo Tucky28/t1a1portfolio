@@ -1,50 +1,53 @@
+/*The github icon on the right of the header*/
 .github-image {
   max-width: 50px;
 }
-
+/*Placement of the header*/
 .header-container {
   display: flex;
   flex-direction: row;
   margin: 5px;
 }
-
+/*The linkedin icon on the right of the header*/
 .linkedin-image {
   max-width: 50px;
   margin-left: 5px;
 }
-
+/*The logo size on the left of the header*/
 .logo-image {
   max-width: 110px;
 }
 
+/*Placement of the logo*/
 .logo-container {
   display: flex;
   flex: 1;
   justify-content: flex-start;
 }
-
+/*Placement of the navigation menu inside the header*/
 .navigation-container {
   display: flex;
   flex: 8;
   justify-content: flex-end;
 }
+/*The style of the anchor element of navigation items*/
 .nav-menu a {
   color: #dbdbdb;
   text-decoration: none;
 }
-
+/*The list items inside the navigation menu*/
 .nav-menu li {
   display: inline;
   padding-left: 0.9em;
   padding-right: 0.9em;
 }
-
+/*The hover effect on the navigation list items*/
 .nav-menu li:hover {
   background-color: #6563ff;
   border-radius: 5px;
   transition: 0.3s ease;
 }
-
+/*The position of the socials container including github and linkedin icon*/
 .socials-container {
   display: flex;
   justify-content: flex-end;
@@ -52,7 +55,7 @@
   margin-top: 5px;
   margin-right: 5px;
 }
-
+/*Responsive for iPad Air*/
 @media only screen and (min-width: 414px) {
   .github-image {
     width: 20px;
@@ -67,7 +70,7 @@
     font-size: 0.7em;
   }
 }
-
+/*Responsive for iPad Air*/
 @media only screen and (min-width: 820px) {
   .github-image {
     width: 30px;
@@ -82,6 +85,7 @@
     font-size: 1em;
   }
 }
+/*Responsive for standard laptop or monitor size*/
 @media only screen and (min-width: 1280px) {
   .github-image {
     width: 40px;
