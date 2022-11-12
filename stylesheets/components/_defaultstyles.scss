@@ -1,7 +1,9 @@
+/*General styling of standard button component*/
 .standard-button {
   margin-top: 15px;
   text-decoration: none;
 }
+/*Responsive button for iPhone XR*/
 @media only screen and (min-width: 414px) {
   .standard-button {
     font-size: 0.8em;
@@ -9,7 +11,7 @@
     padding-right: 10px;
   }
 }
-
+/*Responsive button for iPad Air*/
 @media only screen and (min-width: 820px) {
   .standard-button {
     font-size: 0.9em;
@@ -17,6 +19,7 @@
     padding-right: 12px;
   }
 }
+/*Responsive buttonfor standard laptop or monitor size*/
 @media only screen and (min-width: 1280px) {
   .standard-button {
     font-size: 1em;
